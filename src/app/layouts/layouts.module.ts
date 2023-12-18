@@ -9,7 +9,7 @@ import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { LayoutsRoutingModule } from './layout-routing.module';
 
 @NgModule({
-  declarations: [Layout4Component],
+  declarations: [Layout4Component], 
   imports: [
     CommonModule,
     FormsModule, // Include FormsModule here
