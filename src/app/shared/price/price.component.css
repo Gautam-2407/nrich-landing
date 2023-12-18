@@ -1,0 +1,1076 @@
+.container-getapp {
+  height: 800px;
+}
+
+.getapp-row1 {
+  background-color: #3c3c3c;
+  height: 560px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+
+.getapp-row1-inner {
+  text-align: center;
+  max-width: 1550px;
+  margin: auto;
+  padding-top: 82px;
+}
+
+#launch {
+  font-size: 65px;
+  font-weight: 300;
+  line-height: 65px;
+  font-family: "Noto Sans", sans-serif;
+  color: #fafafa;
+}
+
+#launch1 {
+  font-size: 65px;
+  font-weight: 800;
+  line-height: 65px;
+  font-family: "Noto Sans", sans-serif;
+  color: #fafafa;
+}
+
+.getapp-row1-inner > p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 39px;
+  width: 68%;
+  margin: auto;
+}
+
+.getapp-logo-main {
+  margin: auto;
+  height: 150px;
+  justify-items: right;
+}
+
+.getapp-logo1 {
+  padding-top: 10px;
+}
+
+.getapp-logo2 {
+  padding-top: 10px;
+}
+
+.getapp-logo3 {
+  padding-top: 10px;
+}
+
+.getapp-row1-img {
+  height: 540px;
+}
+
+.getapp-row1-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.app-store-main {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.half-round {
+  margin-top: -200px;
+  width: 20%;
+}
+
+#req {
+  font-family: "Noto Sans";
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 85px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #313131;
+}
+
+.getapp-row2-col1 {
+  width: 493px;
+  height: 286px;
+  padding-bottom: 20px;
+  background: #ff5757;
+  border-radius: 10px;
+}
+
+.getapp-row2-bg > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.getapp-row2-col {
+  width: 1284px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.getapp-row2-text {
+  width: 50%;
+}
+
+.getapp-row2-bg {
+  margin-left: -385px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 569px;
+  border-radius: 10px;
+}
+
+.getapp-row2-col-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.getapp-row2-text > h2 {
+  font-family: "Noto Sans" sans-serif;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 46px;
+  color: #000f37;
+  width: 70%;
+}
+
+.getapp-row2-text > p {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #575757;
+  width: 70%;
+  padding-top: 40px;
+}
+
+.getapp-row2-text > button {
+  width: 185px;
+  height: 58px;
+  font-family: "Noto Sans";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  background: #000f37;
+  color: #fafafa;
+  border-radius: 6px;
+  margin-top: 45px;
+}
+
+.getapp-apple > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.getapp-google > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.getapp-row3 {
+  max-width: 1284px;
+  display: flex;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.getapp-row3-col1 {
+  width: 50%;
+}
+
+.getapp-row3-col1 > h2 {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 46px;
+  color: #000f37;
+  width: 80%;
+}
+
+.getapp-row3-col1 > p {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #575757;
+  padding-top: 20px;
+  width: 80%;
+}
+
+.getapp-row3-col1 > button {
+  width: 185px;
+  height: 58px;
+  font-family: "Noto Sans";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  background: #000f37;
+  color: #fafafa;
+  border-radius: 6px;
+  margin-top: 35px;
+}
+
+.getapp-row3-col1 > button:hover {
+  background: #fafafa;
+  color: #000f37;
+  border: 1px solid #000f37;
+}
+
+.getapp-row3-col3 {
+  width: 560px;
+  height: 333px;
+  background: #ff5757;
+  border-radius: 10px;
+}
+
+.getapp-row3-col2 {
+  display: flex;
+  width: 50%;
+}
+
+.getapp-row3-col4 {
+  padding-top: 50px;
+  height: 441px;
+  margin-left: -540px;
+}
+
+.getapp-row3-col4 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.getapp-row4 {
+  max-width: 1284px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.getapp-row4-col1 {
+  width: 70%;
+  margin: auto;
+}
+
+.getapp-row4-col1 > h2 {
+  font-family: "Noto Sans";
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 47px;
+  color: #3c3c3c;
+}
+
+.getapp-row4-col1 > p {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #6c6c72;
+  width: 90%;
+  padding-top: 30px;
+}
+
+.getapp-row5 {
+  display: flex;
+  position: relative;
+}
+
+.getapp-row5-main {
+  width: 1284px;
+  margin: auto;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.getapp-row5-col2 {
+  left: 128px;
+  position: absolute;
+}
+
+.getapp-row5-col4 {
+  display: flex;
+  position: relative;
+}
+
+.getapp-row5-col6 {
+  margin-left: 99px;
+}
+
+.getapp-row5-col5 {
+  position: absolute;
+}
+
+.getapp-row5-main-main {
+  display: grid;
+  grid-template-columns: 35% 30% 35%;
+}
+
+.getapp-nextbtn {
+  width: 65px;
+  height: 65px;
+  border-radius: 35px;
+}
+
+.getapp-nextbtn > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  color: #ff5757;
+}
+
+.getapp-back {
+  width: 65px;
+  height: 65px;
+  border-radius: 35px;
+}
+
+.getapp-back > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  color: #ff5757;
+}
+
+.getapp-row5-buttons {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.getapp-row2-text > button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+#active-dot {
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 20px;
+}
+
+.getapp-dots > p {
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(0deg, #d7dce4, #d7dce4),
+    linear-gradient(0deg, rgba(60, 60, 60, 0.4), rgba(60, 60, 60, 0.4));
+  border-radius: 20px;
+}
+
+.getapp-dots > p:hover {
+  background-color: #ff5757;
+  cursor: pointer;
+  color: red;
+}
+
+.getapp-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.foruser-page-question1 {
+  display: flex;
+  height: auto;
+  width: 1280px;
+  max-width: 100%;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.getapp-row2 {
+  width: 80%;
+  margin: auto;
+  margin-top: -80px;
+}
+
+@media screen and (max-width: 440px) {
+  .crm-section-6-price-table {
+    /* padding-left: 20px; */
+    width: auto !important;
+  }
+  .crm-price-table-1,
+  .crm-price-table-2,
+  .crm-price-table-3 {
+    width: auto;
+    /* padding: 0px !important; */
+    margin: auto;
+  }
+  .ptb-40 {
+    padding-top: 1px !important;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 650px) {
+  .getapp-row2 {
+    width: 80%;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 50px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 349px) {
+  .getapp-row2 {
+    width: 80%;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 80px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+  .getapp-row5-buttons {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+  }
+  .getapp-row2 {
+    width: 90%;
+    margin: auto;
+  }
+  .getapp-row2-text > p {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .crm-section-6-price-table {
+    width: 40%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  .getapp-row2-col {
+    width: 90%;
+  }
+  .getapp-row3 {
+    width: 90%;
+  }
+  .getapp-row2-col1 {
+    width: 428px;
+    height: 268px;
+    padding-bottom: 20px;
+    background: #ff5757;
+    border-radius: 10px;
+  }
+  .getapp-row2-bg {
+    margin-left: -360px;
+  }
+  .getapp-row2-text > h2 {
+    width: 90%;
+  }
+  .getapp-row2-text > p {
+    width: 95%;
+  }
+  .getapp-row5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .getapp-row5-main-main {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .getapp-row4-col1 {
+    text-align: center;
+    width: 80%;
+  }
+  .getapp-nextbtn {
+    display: none;
+  }
+  .getapp-back {
+    display: none;
+  }
+  .getapp-row5-col3 {
+    width: 60%;
+    margin: auto;
+  }
+  .getapp-row5-col4 {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    position: relative;
+  }
+  .getapp-dots {
+    margin: auto;
+    width: 60%;
+  }
+
+  .crm-price-table-1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 675px) and (max-width: 1023px) {
+  .getapp-row2-col {
+    width: 90%;
+    display: block;
+  }
+
+  .getapp-row2-text {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
+  }
+
+  .getapp-row3 {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .getapp-row3-col2 {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .getapp-row3-col1 > p {
+    width: 90%;
+    margin: auto;
+  }
+  .getapp-row3-col1 {
+    width: 100%;
+  }
+  .getapp-row3-col1 > h2 {
+    width: 80%;
+    margin: auto;
+  }
+  .getapp-row2-col1 {
+    width: 428px;
+    height: 268px;
+    padding-bottom: 20px;
+    background: #ff5757;
+    border-radius: 10px;
+  }
+  .getapp-row2-bg {
+    margin-left: -360px;
+  }
+  .getapp-row2-text > h2 {
+    width: 100%;
+    margin: auto;
+  }
+  .getapp-row2-text > p {
+    width: 100%;
+  }
+  .getapp-row5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .getapp-row5-main-main {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .getapp-row4-col1 {
+    text-align: center;
+    width: 100%;
+  }
+  .getapp-nextbtn {
+    display: none;
+  }
+  .getapp-back {
+    display: none;
+  }
+  .getapp-row5-col3 {
+    width: 60%;
+    margin: auto;
+  }
+  .getapp-row5-col4 {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    position: relative;
+  }
+  .getapp-dots {
+    margin: auto;
+    width: 60%;
+  }
+  .crm-section-6-price-table {
+    width: 50%;
+    margin: auto;
+    display: block;
+  }
+  .crm-price-table-1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+  }
+  .getapp-row4-col1 > p {
+    width: 100%;
+  }
+  .getapp-row4 {
+    width: 90%;
+    margin: auto;
+  }
+  .getapp-row2-col-main {
+    margin-left: -52px;
+  }
+  .getapp-row5-col2 {
+    left: 10px;
+    position: absolute;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 674px) {
+  #launch {
+    font-size: 40px;
+  }
+
+  #launch1 {
+    font-size: 40px;
+  }
+  .getapp-row1-img {
+    height: 300px;
+  }
+  .getapp-row1-inner > p {
+    padding-top: 20px;
+  }
+  .getapp-row2-col {
+    width: 90%;
+    display: block;
+    padding-top: 60px;
+  }
+
+  .container-getapp {
+    height: 700px;
+  }
+
+  .app-store-main {
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding-top: 70px;
+  }
+
+  .getapp-row2-text {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
+  }
+
+  .getapp-row3 {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .getapp-row3-col2 {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .getapp-row3-col1 > p {
+    width: 90%;
+    margin: auto;
+  }
+  .getapp-row3-col1 {
+    width: 100%;
+  }
+  .getapp-row3-col1 > h2 {
+    width: 80%;
+    margin: auto;
+    font-size: 40px;
+  }
+  .getapp-row2-col1 {
+    display: none;
+  }
+  .getapp-row2-bg {
+    margin-left: 0px;
+  }
+  .getapp-row2-text > h2 {
+    width: 100%;
+    margin: auto;
+    font-size: 40px;
+  }
+  .getapp-row2-text > p {
+    width: 100%;
+  }
+  .getapp-row5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .getapp-row5-main-main {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .getapp-row4-col1 {
+    text-align: center;
+    width: 100%;
+  }
+  .getapp-nextbtn {
+    display: none;
+  }
+  .getapp-back {
+    display: none;
+  }
+  .getapp-row5-col3 {
+    width: 60%;
+    margin: auto;
+  }
+  .getapp-row5-col4 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    position: relative;
+  }
+  .getapp-dots {
+    margin: auto;
+    width: 60%;
+  }
+  .crm-section-6-price-table {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .crm-price-table-1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+  }
+  .getapp-row4-col1 > p {
+    width: 100%;
+  }
+  .getapp-row4 {
+    width: 90%;
+    margin: auto;
+  }
+  .getapp-row2-col-main {
+    margin-left: 0px;
+  }
+  .getapp-row5-col2 {
+    left: 10px;
+    position: absolute;
+  }
+  .getapp-apple > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .getapp-google > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  #req {
+    font-size: 60px;
+    line-height: 65px;
+  }
+  .getapp-row3-col4 {
+    padding-top: 50px;
+    height: 209px;
+    margin-left: -98px;
+  }
+  .getapp-row3-col3 {
+    width: 153px;
+    height: 146px;
+    background: #ff5757;
+    border-radius: 10px;
+  }
+  .getapp-row5-col6 {
+    margin-left: 0px;
+  }
+  .getapp-row5-col3 > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .getapp-row5-col3 {
+    width: 100%;
+  }
+  .foruser-page-question1 {
+    display: block;
+  }
+  .foruser-page-question-col1 {
+    text-align: center;
+  }
+  .foruser-Sr-no {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+  .getapp-row1-inner {
+    padding-top: 23px;
+  }
+  #launch {
+    font-size: 40px;
+  }
+
+  #launch1 {
+    font-size: 40px;
+  }
+  .getapp-row1-img {
+    height: 245px;
+  }
+  .getapp-row1-inner > p {
+    padding-top: 20px;
+  }
+  .getapp-row2-col {
+    width: 90%;
+    display: block;
+    padding-top: 60px;
+  }
+
+  .container-getapp {
+    height: 700px;
+  }
+
+  .app-store-main {
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding-top: 70px;
+  }
+
+  .getapp-row2-text {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
+  }
+
+  .getapp-row3 {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .getapp-row3-col2 {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .getapp-row3-col1 > p {
+    width: 90%;
+    margin: auto;
+  }
+  .getapp-row3-col1 {
+    width: 100%;
+  }
+  .getapp-row3-col1 > h2 {
+    width: 80%;
+    margin: auto;
+    font-size: 40px;
+  }
+  .getapp-row2-col1 {
+    display: none;
+  }
+  .getapp-row2-bg {
+    margin-left: 0px;
+  }
+
+  .crm-section-6-heading > h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .getapp-row2-text > h2 {
+    width: 100%;
+    margin: auto;
+    font-size: 40px;
+  }
+  .getapp-row2-text > p {
+    width: 100%;
+  }
+  .getapp-row5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .getapp-row5-main-main {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .getapp-row4-col1 {
+    text-align: center;
+    width: 100%;
+  }
+  .getapp-nextbtn {
+    display: none;
+  }
+  .getapp-back {
+    display: none;
+  }
+  .getapp-row5-col3 {
+    width: 60%;
+    margin: auto;
+  }
+  .getapp-row5-col4 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .getapp-dots {
+    margin: auto;
+    width: 60%;
+  }
+  .crm-section-6-price-table {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .crm-price-table-1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+  }
+  .getapp-row4-col1 > p {
+    width: 100%;
+  }
+  .getapp-row4 {
+    width: 90%;
+    margin: auto;
+  }
+  .getapp-row2-col-main {
+    margin-left: 0px;
+  }
+  .getapp-row5-col2 {
+    display: none;
+  }
+  .getapp-apple > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .getapp-google > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  #req {
+    font-size: 60px;
+    line-height: 65px;
+  }
+  .getapp-row3-col4 {
+    padding-top: 50px;
+    height: 209px;
+    margin-left: -98px;
+  }
+  .getapp-row3-col3 {
+    width: 153px;
+    height: 146px;
+    background: #ff5757;
+    border-radius: 10px;
+  }
+  .getapp-row5-col6 {
+    margin-left: 0px;
+  }
+  .getapp-row5-col3 > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .getapp-row5-col3 {
+    width: 100%;
+  }
+  .foruser-page-question1 {
+    display: block;
+  }
+  .foruser-page-question-col1 {
+    text-align: center;
+  }
+  .foruser-Sr-no {
+    width: 90%;
+    margin: auto;
+  }
+  .bill-button-wrapper {
+    margin-top: 20px;
+  }
+  .crm-section-6-heading > p {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 10px;
+    padding-top: 20px;
+  }
+  .crm-price-table-2-price > h2 {
+    font-size: 40px;
+  }
+  .crm-price-table-2-card {
+    width: 100%;
+    padding: 25px 20px;
+  }
+  .crm-price-table-3-price > h2 {
+    font-size: 40px;
+  }
+  .crm-price-table-3-card {
+    max-width: 100%;
+    padding: 25px 20px;
+  }
+  .crm-price-table-1-price > h2 {
+    font-size: 40px;
+  }
+  .getapp-apple {
+    width: 150px;
+  }
+
+  /* .getapp-apple > a > img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  } */
+  .getapp-google {
+    width: 150px;
+  }
+  /* .getapp-google > a > img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  } */
+}

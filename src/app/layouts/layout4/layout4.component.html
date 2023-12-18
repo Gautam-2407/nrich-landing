@@ -1,0 +1,103 @@
+<!--Navbar Start-->
+<nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark" (window:scroll)="windowScroll()" id="navbar">
+    <div class="container">
+        <!-- LOGO -->
+        <a class="navbar-brand logo" href="layout-5">
+            <img src="assets/images/nrich_logo.png" alt="" class="" height="51">
+        </a>
+        <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbarCollapse" 
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleMenu()">
+            <i class="mdi mdi-menu"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto navbar-center" id="mySidenav">
+                <li class="nav-item">
+                    <a href="javascript: void(0);" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item" [ngClass]="{'active':currentSection === 'services'}">
+                    <a [ngxScrollTo]="'#services'" href="javascript: void(0);" class="nav-link" [ngxScrollToOffset]="2">Features</a>
+                </li> 
+                <li class="nav-item" [ngClass]="{'active':currentSection === 'about'}">
+                    <a [ngxScrollTo]="'#about'" href="javascript: void(0);" class="nav-link" [ngxScrollToOffset]="2">About LMS</a>
+                </li>  
+                <li class="nav-item" [ngClass]="{'active':currentSection === 'features'}">
+                    <a  href="javascript: void(0);" class="nav-link" >Pricing</a>
+                </li>
+                <li class="nav-item" [ngClass]="{'active':currentSection === 'clients'}">
+                    <a [ngxScrollTo]="'#clients'" href="javascript: void(0);" class="nav-link" [ngxScrollToOffset]="2">Reviews</a>
+                </li>
+            </ul>
+            <div class="call-no">
+                <a href="tel:+91 79425 30235" class="nav-link text-warning"><i class="mdi mdi-phone mr-1"></i> +91 79425-30235</a>
+            </div>            
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+<div appScrollspy [spiedTags]="['SECTION']" (sectionChange)="onSectionChange($event)">
+<!-- Hero Start -->
+<section class="hero-4-bg position-relative d-flex align-items-center bg-light" id="home">
+    <div class="hero-4-bg-overlay"></div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1 class="text-dark hero-4-title font-weight-light line-height-1_4 mb-4">Grow Your Coaching Institute With <span class="font-weight-normal">Learning Management System</span></h1>
+                <p class="text-muted">Make teaching easy with our Learning Management System. Perfect for your coaching institutes, Nrich Learning's LMS offers Zoom integrated live streaming, recorded lectures, and automated assessments. Simplify management and enhance your students' learning experience.</p>
+
+            </div>
+            <div class="col-lg-4 offset-lg-2">
+                <div class="hero-login-form mx-auto bg-white p-4 rounded mt-5 mt-lg-0">
+                    <div class="text-center">
+                        <p class="text-muted mb-2 f-13 text-uppercase">Welcome To Nrich</p>
+                        <h5 class="form-dark mb-4">Get 30 Days Free Trial</h5>
+                    </div>
+                    <form class="registration-form" (ngSubmit)="onSubmit()">
+                        <div class="form-group mb-4">
+                            <label for="exampleFormControlInput1" class="f-15">Your Name*</label>
+                            <input type="text" class="form-control" [(ngModel)]="formData.name" id="exampleFormControlInput1" name="name" placeholder="">
+                        </div>
+                            <div class="form-group mb-4">
+                                <label for="exampleFormControlInput1" class="f-15">Phone No*</label>
+                                <input type="text" class="form-control" [(ngModel)]="formData.phone" name="phone" id="exampleFormControlInput3" placeholder="">
+                            </div>                
+                        <div class="form-group mb-4">
+                            <label for="exampleFormControlInput1" class="f-15">Have you used any LMS?*</label>
+                            <div class="radio-fields">
+                                <input type="radio"  id="exampleFormControlInput2" [(ngModel)]="formData.lmsY" name='lms'>
+                                <label class="option" class="form-options" id="lms" value="YES">Yes</label>
+                                <input type="radio" id="exampleFormControlInput2" [(ngModel)]="formData.lmsN" name='lms'>
+                                <label class="option" class="form-options" id="lms" value="No">No</label>
+                                
+                            </div>
+
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="exampleFormControlInput1" class="f-15">How many Students do you have?*</label>
+                            <div class="radio-fields">
+                                <input type="radio"  id="exampleFormControlInput2" name='nmbstud'>
+                                <label class="option" class="form-options" id="nmbstud" value="1-10">1-10</label>
+                                <input type="radio" id="exampleFormControlInput2" name='nmbstud'>
+                                <label class="option" class="form-options" id="nmbstud" value="10-50">10-50</label>
+                                <input type="radio" id="exampleFormControlInput2" name='nmbstud'>
+                                <label class="option" class="form-options" id="nmbstud" value="50 and above">50 and above</label>
+                                
+                            </div>
+
+                        </div>
+
+                        <button type="submit" class="btn btn-warning btn-block btn-sm">Get Started <i class="mdi mdi-telegram ml-2"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Hero End -->
+    <app-services></app-services>
+    <app-about></app-about>
+    <app-features></app-features>
+    <app-contact></app-contact>
+    <app-clients></app-clients>
+    <app-footer></app-footer>
+</div>  
